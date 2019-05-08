@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewTodoFragment">
+
+    <EditText
+        android:id="@+id/new_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/fragment_todo_edit_text_heading"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/new_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/fragment_todo_edit_text_info"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/save_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/new_todo_button_save"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

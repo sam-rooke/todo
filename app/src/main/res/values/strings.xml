@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="home_activity">My Todo\'s</string>
+    <string name="todo_activity">Todo</string>
+    <string name="new_todo_activity">New Todo</string>
+    <string name="fragment_todo_edit_text_heading">Heading</string>
+    <string name="fragment_todo_edit_text_info">Information</string>
+    <string name="fragment_todo_checkbox_complete">Is complete?</string>
+    <string name="new_todo_button_save">Save Todo</string>
+    <string name="delete_todo">DeleteTodo</string>
+</resources>
